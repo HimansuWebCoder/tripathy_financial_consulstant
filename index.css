@@ -78,7 +78,7 @@
 	top:0;
 	left:0;
 	border:1px solid red;
-	background-color: rgba(244, 244, 244, 0.6);
+	background-color: rgba(244, 244, 244, 0.4);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -129,6 +129,9 @@
 .nav-menus-container > li > a {
 	text-decoration: none;
 	margin: 10px;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color:#1679AB;
 }
 
 .nav-menus-container > li > a:active {
