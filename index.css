@@ -10,10 +10,11 @@
 #nav-menu {
   width:100%;
   height: auto;
-  background: white;
+  background: #F2F9FF;
   display: flex;
   justify-content: space-between;
   align-items: center;
+/*  box-shadow: 0.5px 0.5px 0.5px 0.5px #D4F6FF;*/
   padding: 10px;
   color: black;
   font-size: 2rem;
