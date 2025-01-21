@@ -733,6 +733,18 @@
 	  margin-right: 20px;
 	}
 
+	#about {
+		font-size: 0.7rem;
+	}
+
+	#services {
+		font-size: 0.7rem;
+	}
+
+	#contact {
+		font-size: 0.7rem;
+	}
+
 	.about-content-container > h1 {
 	    font-size: 1.8rem;
 	    word-break: break-word;
