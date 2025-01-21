@@ -323,8 +323,8 @@
 
 /*about-content-container styling*/
 .about-content-container {
-  max-width:330px;
-  height: 250px;
+  max-width:500px;
+  height: auto;
   padding:20px;
   display: flex;
   justify-content: flex-start;
@@ -412,7 +412,7 @@
  outline:none;
  box-shadow: 0.5px 0.5px 0.5px 0.5px #9AA6B2;
  padding: 5px;
- margin-top:20px;
+ margin:10px;
 }
 
 .service-img-container {
