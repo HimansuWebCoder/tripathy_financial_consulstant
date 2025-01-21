@@ -620,7 +620,7 @@
  display: flex;
  justify-content: flex-start;
  align-items: center;
- border: 1px solid white;
+/* border: 1px solid white;*/
 /* margin:4px;*/
  word-break: break-word;
 }
@@ -807,7 +807,7 @@
 		}
 
 		#about-horizontal {
-			display: block;
+			display: none;
 		}
 
 		#whatsapp-icon-container {
