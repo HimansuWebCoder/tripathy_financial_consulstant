@@ -183,7 +183,12 @@
 
 #name {
  color:#0A97B0;
- text-shadow: 1px 1px 1px #0A97B0;
+ color:transparent;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(45deg, #D04848, #0079FF);
+ -webkit-background-clip: text;
+ background-clip:text;
+/* text-shadow: 1px 1px 1px #0A97B0;*/
 /* text-decoration-style: wavy;*/
 }
 
@@ -191,7 +196,12 @@
 /* color:#F96E2A;*/
 /* color:#6439FF;*/
  color:#0766AD;
- text-shadow: 1px 1px 1px #0766AD;
+ color:transparent;
+ font-family: "Gill Sans", sans-serif, cursive;
+ background: linear-gradient(45deg, #0079FF, #D04848);
+ -webkit-background-clip: text;
+ background-clip:text;
+/* text-shadow: 1px 1px 1px #0766AD;*/
 /* text-decoration-style: wavy;*/
 /* text-decoration-color: blue;*/
 }
