@@ -376,6 +376,10 @@ background-clip: text;
 	text-decoration: underline;
 	text-decoration-color: #295F98;
 	text-decoration-thickness: 1px;
+	color:transparent;
+ background: linear-gradient(45deg, #0079FF, #AB46D2);
+ -webkit-background-clip: text;
+background-clip: text;
 }
 
 .about-content-container > h3 {
