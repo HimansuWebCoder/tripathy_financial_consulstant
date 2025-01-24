@@ -287,8 +287,15 @@
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	background-color: #0081D1; 
-	color:white;
+	font-size:1.8rem;
+	font-weight:bold;
+	font-family: Georgia, Roboto, sans-serif;
+	color: transparent;
+/*	background-color: #0081D1; */
+background: linear-gradient(45deg, #D04848, #0081D1);
+-webkit-background-clip: text;
+background-clip: text;
+/*	color:#D04848;*/
 	padding: 10px;
    margin-top: 30px;
 }
@@ -380,6 +387,14 @@
   text-align: center;
   background-color: #0081D1;
   color:white;
+  font-weight:bold;
+	font-family: Georgia, Roboto, sans-serif;
+	color: transparent;
+/*	background-color: #0081D1; */
+background: linear-gradient(45deg, #D04848, #0081D1);
+-webkit-background-clip: text;
+background-clip: text;
+font-size: 1.8rem;
   margin-top: 30px;
   padding: 10px;
 }
@@ -437,6 +452,14 @@
   text-align: center;
   background-color: #0081D1;
   color:white;
+  font-weight:bold;
+	font-family: Georgia, Roboto, sans-serif;
+	color: transparent;
+/*	background-color: #0081D1; */
+background: linear-gradient(45deg, #D04848, #0081D1);
+-webkit-background-clip: text;
+background-clip: text;
+font-size: 1.8rem;
   padding: 10px;
   margin-top: 30px;
 }
@@ -735,15 +758,15 @@
 	}
 
 	#about {
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 	}
 
 	#services {
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 	}
 
 	#contact {
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 	}
 
 	.about-content-container > h1 {
