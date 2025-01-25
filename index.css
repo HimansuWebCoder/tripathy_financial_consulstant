@@ -353,9 +353,9 @@ background-clip: text;
   flex-direction: column;
   line-height: 1.5;
 /*  border-top: 0.6px solid grey;*/
-  border-bottom-left-radius:50px;
-  border-bottom-right-radius:50px;
-  border-top-right-radius:50px;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top-right-radius:20px;
 /*  margin-left: 150px;*/
   text-align: center;
 /*  border:1px solid black;*/
@@ -446,7 +446,7 @@ font-size: 1.8rem;
  color:#2E5077;
  border:none;
  outline:none;
- border-radius: 30px;
+ border-radius: 20px;
  box-shadow: 0.5px 0.5px 0.5px 0.9px #9AA6B2;
  padding: 5px;
  margin:10px;
@@ -522,7 +522,8 @@ font-size: 1.8rem;
  height: auto;
  display: flex;
  flex-direction: column;
- padding: 20px;
+ padding-top: 20px;
+ padding-bottom: 10px;
  background-color: #205373;
  color: white;
  margin-top: 20px;
@@ -533,7 +534,7 @@ font-size: 1.8rem;
  width:100%;
  height: auto;
  display: flex;
- justify-content: space-evenly;
+ justify-content: space-around;
  flex-wrap: wrap;
  font-size: 1.6rem;
 /* border: 1px solid yellow;*/
@@ -559,28 +560,33 @@ font-size: 1.8rem;
 
 /*footer-content-container styling*/
 .footer-content-container {
-  width:70%;
+  max-width:70%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
-/*  border:1px solid violet;*/
+  border:1px solid violet;
 }
 
 /*footer-sub-container styling*/
 .footer-links-container {
- width:400px;
+ width:300px;
  height: auto;
  display: flex;
- justify-content: center;
+ justify-content: flex-start;
  flex-direction: column;
- align-items: center;
+ align-items: start;
+ margin-top:10px;
 /* border:1px solid red;*/
 }
 
+.footer-links-container > h5 {
+	font-family: "Open Sans", sans-serif;
+}
+	
 .footer-sub-container > h5 {
-	font-family: "Gill Sans", sans-serif;;
+	font-family: "Open Sans", sans-serif;
 }
 
 /*footer-nav-menu-container styling*/
@@ -596,6 +602,8 @@ font-size: 1.8rem;
 	text-decoration: none;
 	border-bottom: 1px solid white;
 	color:white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.2rem;
 }
 
 .footer-nav-menu-container > li > a:hover {
@@ -609,17 +617,18 @@ font-size: 1.8rem;
 
 /*follow-box-container styling*/
 .follow-box-container {
-  max-width:200px;
+  width:300px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: start;
 /*  border:1px solid white;*/
-/*  margin-top: 10px;*/
+  margin-top: 10px;
 }
 
 .follow-box-container  > h5 {
+	font-family: "Open Sans", sans-serif;
 /*	font-size: 1rem;*/
 /*font-family: "Gill Sans", sans-serif;;*/
 }
@@ -627,7 +636,7 @@ font-size: 1.8rem;
 .social-links-container {
 	width: 100%;
 	height: auto;
-	text-align: center;
+/*	text-align: center;*/
 /*	border:1px solid white;*/
 	margin-top: 10px;
 }
@@ -638,12 +647,13 @@ font-size: 1.8rem;
 }
 
 #quick-contact {
-	max-width: 400px;
+	width: 300px;
 	height: auto;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: start;
 	flex-direction: column;
+	  margin-top: 10px;
 /*	border:1px solid white;*/
 }
 
@@ -658,6 +668,7 @@ font-size: 1.8rem;
 #quick-contact > h5 {
 /*	margin:auto;*/
 	margin-bottom: 5px;
+font-family: "Open Sans", sans-serif;
 }
 
 .icon-container {
@@ -668,6 +679,8 @@ font-size: 1.8rem;
  align-items: center;
 /* border: 1px solid white;*/
 /* margin:4px;*/
+font-family: "Open Sans", sans-serif;
+	font-size: 1.2rem;
  word-break: break-word;
 }
 
@@ -685,7 +698,9 @@ font-size: 1.8rem;
 
 /*footer-second-container styling*/
 .footer-second-container {
-	margin-top: 10px;
+	margin-top: 20px;
+	position: relative;
+	bottom: 0;
   text-align: center;
 }
 
@@ -813,12 +828,20 @@ font-size: 1.8rem;
 		font-size: 1rem;
 	}
 
+	.footer-links-container {
+		align-items: center;
+	}
+
+	#quick-contact {
+		align-items: center;
+	}
+
 	.footer-links-container > h5 {
 		font-size: 1rem;
 	}
 
 	.footer-nav-menu-container > li > a {
-		font-size: 1rem;
+		font-size: 0.9rem;
 	}
 
 	#quick-contact > h5 {
@@ -833,8 +856,8 @@ font-size: 1.8rem;
 		margin-top: 10px;
 	}
 
-	.quick-contact-contents {
-		font-size: 1rem;
+	.icon-container {
+		font-size: 0.9rem;
 	}
 
 	.about-logo-container {
