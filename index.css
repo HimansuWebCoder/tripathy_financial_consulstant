@@ -305,13 +305,13 @@ background-clip: text;
 	font-weight:bold;
 	font-family: Georgia, Roboto, sans-serif;
 	color: transparent;
-/*	background-color: #0081D1; */
 background: linear-gradient(45deg, #D04848, #0081D1);
 -webkit-background-clip: text;
 background-clip: text;
 /*	color:#D04848;*/
 	padding: 10px;
    margin-top: 30px;
+/*	background-color: #0081D1; */
 }
 
 /*about-container styling*/
@@ -355,7 +355,8 @@ background-clip: text;
 /*  border-top: 0.6px solid grey;*/
   border-bottom-left-radius:20px;
   border-bottom-right-radius:20px;
-  border-top-right-radius:20px;
+  border-top-right-radius:5px;
+  border-top-left-radius:5px;
 /*  margin-left: 150px;*/
   text-align: left;
 /*  border:1px solid black;*/
@@ -366,7 +367,8 @@ background-clip: text;
 /* background-position: center;*/
 /* background-repeat: no-repeat;*/
 /* background-size: cover;*/
-  box-shadow: 0.5px 0.5px 0.5px 0.9px #9AA6B2;
+/*  box-shadow: 0.5px 0.5px 0.5px 0.9px #9AA6B2;*/
+  box-shadow: 1px 1px 1px 0.5px grey;
 }
 
 #about-horizontal {
@@ -380,9 +382,9 @@ background-clip: text;
 	color:#3572EF;
 	font-family: monospace fantasy;
 	font-size: 3rem;
-	text-decoration: underline;
-	text-decoration-color: #295F98;
-	text-decoration-thickness: 1px;
+/*	text-decoration: underline;*/
+/*	text-decoration-color: #295F98;*/
+/*	text-decoration-thickness: 1px;*/
 	color:transparent;
  background: linear-gradient(45deg, #0079FF, #AB46D2);
  -webkit-background-clip: text;
@@ -391,11 +393,15 @@ background-clip: text;
 
 .about-content-container > h3 {
 	color:#577BC1;
-	text-decoration: underline;
-	text-decoration-color: #295F98;
-	text-decoration-thickness: 1px;
+/*	text-decoration: underline;*/
+/*	text-decoration-color: #295F98;*/
+/*	text-decoration-thickness: 1px;*/
 	font-family: sans-serif cursive;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
+}
+
+.about-content-container > h5 {
+	color:darkslategrey;
 }
 
 .about-content-container > p {
@@ -431,6 +437,37 @@ font-size: 1.8rem;
   margin-top: 15px;
 }
 
+.home-logo1 {
+  width:300px;
+  height: 300px;
+  position: relative;
+  border:1px solid black;
+}
+
+.home-logo2 {
+  width:300px;
+  height: 300px;
+  border:1px solid black;
+  position: relative;
+  top:0px;
+}
+
+.home-logo3 {
+  width:300px;
+  height: 300px;
+  border:1px solid black;
+  position: relative;
+  top:-100px;
+}
+
+.home-logo4 {
+  width:300px;
+  height: 300px;
+  border:1px solid black;
+  position: relative;
+  top:0px;
+}
+
 /*service-content-container styling*/
 .service-content-container {
  width:330px;
@@ -446,7 +483,7 @@ font-size: 1.8rem;
  color:#2E5077;
  border:none;
  outline:none;
- border-radius: 20px;
+ border-radius: 10px;
  box-shadow: 0.5px 0.5px 0.5px 0.9px #9AA6B2;
  padding: 5px;
  margin:10px;
