@@ -3,7 +3,7 @@ const menusItems = document.querySelector("#menu-items");
 const closeMenu = document.querySelector("#close-menu");
 const menus = document.querySelector(".menus");
 
-let blurLimit = 30;
+let blurLimit = 15;
 document.body.style.filter = `blur(${blurLimit}px)`
 
 menuBtn.addEventListener("click", () => {
@@ -20,6 +20,8 @@ closeMenu.addEventListener("click", () => {
             if (blurLimit > 0) {
                blurLimit--;
                document.body.style.filter = `blur(${blurLimit}px)`
+            } else {
+               document.body.style.filter = "none";
             }
-          }, 80)
+          }, 40)
 
